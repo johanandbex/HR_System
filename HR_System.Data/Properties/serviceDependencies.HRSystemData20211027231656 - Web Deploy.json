@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/johanssqlserver/databases/hr_test",
+      "type": "mssql.azure",
+      "connectionId": "hr_test",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "HR Home";
+}
+
+<div class="jumbotron">
+
+    <div>@Html.ActionLink("List of People", "Index", "People")</div>
+    <br />
+    <br />
+    <div>
+        @Html.ActionLink("List of Regions", "Index", "Regions")<br />
+        @Html.ActionLink("List of Companies", "Index", "Companies")<br />
+        @Html.ActionLink("List of Departments", "Index", "Departments")<br />
+    </div>
+
+</div>
+
+

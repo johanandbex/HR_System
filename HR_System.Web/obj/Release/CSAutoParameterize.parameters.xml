@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="HR_SystemWebContext-Web.config Connection String" description="HR_SystemWebContext Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/HR_System.csdl|res://*/HR_System.ssdl|res://*/HR_System.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=tcp:johanssqlserver.database.windows.net;initial catalog=hr_test;User ID=johanandbex;Password=Bex32ball!;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Alienware\\source\\repos\\HR_System\\HR_System\.Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='HR_SystemWebContext']/@connectionString" />
+  </parameter>
+</parameters>
